@@ -5,78 +5,96 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Result Summary</title>
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,900;1,300&display=swap" rel="stylesheet">
+    
 </head>
+
 <body>
     <div class="container">
         <div class="results">
             <h4 class="result-heading">Your Result</h4>
-            <div>
+            <div class="score-board">
                 <span class="ob-score">76</span>
                 <span class="t-score">of 100</span> 
             </div>
 
-            <div>
+            <div class="grade-desc">
                 <h3>Great</h3>
                 <p>You scored higher than 65% of the people who have taken these tests.</p>
             </div>
         </div>
 
-        <div class="summary"></div>
-            <h4 class="result-heading">Summary</h4>
+        <div class="summary">
+            
+            
             <div class="item-scores">
 
-                <div class="reaction">
+                <div>
+                    <h4 class="summary-heading">Summary</h4>  
+    
+                </div>
+
+                <div class="reaction item">
                     <div class="reaction-left">
                         <img src="./assets/images/icon-reaction.svg" alt="Reaction" />
-                        <span>Reaction</span>
+                        <span class="category">Reaction</span>
                     </div>
-                    <div>
+                    <div class="right-score">
                         <span class="score">80 /</span> 
                         <span class="total">100</span>
                     </div>
                     
                 </div>
-
-                <div class="memory">
+    
+                <div class="memory item">
                     <div class="memory-left">
                         <img src="./assets/images/icon-memory.svg" alt="Memory" />
-                        <span>Memory</span>
-                        
+                        <span class="category">Memory</span> 
                     </div>  
-                    <div>
+                    <div class="right-score">
                         <span class="score">92 /</span> 
                         <span class="total">100</span>
                     </div>
                 </div>
-
-                <div class="verbal">
+    
+                <div class="verbal item">
                     <div class="verbal-left">
                         <img src="./assets/images/icon-verbal.svg" alt="Verbal" />
-                        <span>Verbal</span>
+                        <span class="category">Verbal</span>
                     </div>
-                    <div>
+                    <div class="right-score">
                         <span class="score">61 /</span> 
                         <span class="total">100</span>
                     </div>
                 </div>
-
-                <div class="visual">
+    
+                <div class="visual item">
                     <div class="visual-left">
                         <img src="./assets/images/icon-visual.svg" alt="Visual" />
-                        <span>Visual</span>
+                        <span class="category">Visual</span>
                     </div>
-                    <div>
+                    <div class="right-score">
                         <span class="score">72 /</span> 
                         <span class="total">100</span>
                     </div>
                 </div>
-            </div>
+    
 
-            <div class="continue">
-                <button>Continue</button>
+                <button class="continue" type="button">Continue</button>
+
             </div>
+        </div>
 
     </div>
+
+
     
 </body>
 </html>
