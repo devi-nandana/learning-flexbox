@@ -149,3 +149,29 @@ button{
     border-radius: 30px;
 }
 
+@media (max-width: 760px) {
+    .left {
+      width: 100%;
+      padding: 0px;
+      border-radius: 0px;
+      border-bottom-left-radius: 20px;
+      border-bottom-right-radius: 20px;
+    }
+    .right {
+      padding: 0;
+      width: 80%;
+      margin: 0 auto;
+    }
+    .left-text {
+      padding: 20px;
+      text-align: center;
+    }
+    .container {
+      width: 100%;
+      flex-direction: column;
+      border-radius: 0px;
+      overflow: hidden;
+      padding: 0;
+    }
+}
+
