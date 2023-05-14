@@ -1,0 +1,151 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-family: 'Lato', sans-serif;
+
+    
+}
+
+.container{
+    display: flex;
+    width: 600px;
+    justify-content: centre;
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+    box-shadow: 3px 3px 100px 0px rgba(141, 208, 249, 0.4);
+}
+
+.results{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #ffff;
+    padding: 20px;
+    width: 50%;
+    text-align: center;
+    border-radius: 20px;
+    background: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+}
+
+.result-heading{
+    text-align: centre;
+    font-size:medium;
+    font-family:Arial;
+}
+
+.grade-desc{
+    width: 200px;
+    justify-content: en;
+    align-items: center;
+
+}
+
+.score-board{
+    padding: 50px;
+    width: 74px;
+    height: 74px;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0 auto;
+    background: linear-gradient(hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
+}
+
+
+.ob-score {
+    color: #ffffff;
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+    font-size: 60px;
+  }
+
+.t-score{
+    font-style: normal;
+    font-family: 'Lato', sans-serif;
+
+}
+
+.reaction-left .memory-left .visual-left .verbal-left {
+    display: flex;
+  }
+
+.summary{
+    width:60%;
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+.item{
+    display: flex;
+    justify-content: space-between;
+    background-color: hsla(0, 100%, 67%, 0.1);
+    color: hsl(0, 100%, 67%);
+    margin-bottom: 15px;
+    padding: 10px;
+    border-radius: 10px;
+  }
+
+.total{
+    color: rgba(87, 87, 87, 0.992);
+  }
+
+.summary-heading{
+    text-align: left;
+}
+
+
+.item-scores img {
+    margin-right: 5px;
+  }
+
+
+.score {
+    color: #222;
+    font-weight: bold;
+}
+
+.reaction{
+    color: hsl(39, 100%, 56%);
+    background: hsla(0, 100%, 67%, 0.1);
+}
+
+.memory {
+    color: hsl(39, 100%, 56%);
+    background: hsla(39, 100%, 56%, 0.1);
+}
+.verbal {
+    color: hsl(166, 100%, 37%);
+    background: hsl(166, 100%, 37%, 0.1);
+}
+.visual {
+    color: hsl(234, 85%, 45%);
+    background: hsl(234, 85%, 45%, 0.1);
+}
+
+.right-score{
+    padding-left: 100px;
+    
+}
+
+/* .category{
+    padding-bottom: 200px;
+} */
+  
+button{
+    margin-top: 30px;
+    padding: 15px 30px;
+    border: solid;
+    border-color:  hsl(241, 81%, 54%);
+    border-width: 1px;
+    color: rgb(255, 255, 255);
+    outline: none;
+    background: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+    width: 100%;
+    border-radius: 30px;
+}
+
