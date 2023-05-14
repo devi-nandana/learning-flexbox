@@ -4,8 +4,7 @@ body {
     align-items: center;
     min-height: 100vh;
     font-family: 'Lato', sans-serif;
-
-    
+    margin: 0;
 }
 
 .container{
@@ -131,11 +130,7 @@ body {
     padding-left: 100px;
     
 }
-
-/* .category{
-    padding-bottom: 200px;
-} */
-  
+ 
 button{
     margin-top: 30px;
     padding: 15px 30px;
@@ -150,19 +145,19 @@ button{
 }
 
 @media (max-width: 760px) {
-    .left {
+    .results {
       width: 100%;
       padding: 0px;
       border-radius: 0px;
       border-bottom-left-radius: 20px;
       border-bottom-right-radius: 20px;
     }
-    .right {
+    .summary {
       padding: 0;
       width: 80%;
       margin: 0 auto;
     }
-    .left-text {
+    .grade-desc {
       padding: 20px;
       text-align: center;
     }
